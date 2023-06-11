@@ -1,0 +1,9 @@
+.perfil {
+    margin-top: 1rem;
+    color: var(--cinza);
+}
+
+.editar {
+    color: var(--coral);
+    margin-bottom: 1rem;
+}
