@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.casa {
+    margin: 3rem;
+    
+}
+
+.email {
+    margin: 3rem;
+}
+
+.usuario {
+    display: none;
+}

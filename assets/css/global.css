@@ -1,0 +1,52 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --hover: #FF9D9E;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-fundos: #F7F7F7;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    background: url("../bg/forma1.png")no-repeat,
+    url("../bg/forma2.png") 100% 199px no-repeat;
+    /*url("../img/Ilustração1.png") 33.66% 518px no-repeat;*/
+    background-color: var(--azul);
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'IBM Plex Sans';
+    margin: 0;
+    padding: 0;
+}
+
+ul, 
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background: var(--coral);
+    border-radius: 6px;
+    color: var(--branco);
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background: var(--hover)
+}

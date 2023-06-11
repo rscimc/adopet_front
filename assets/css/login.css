@@ -1,0 +1,9 @@
+.white {
+    background-color: var(--branco);
+}
+
+.esqueci {
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--coral);
+}
